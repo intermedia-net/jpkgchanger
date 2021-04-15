@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[tool.flit.scripts]
+jpkgchanger = "jpkgchanger:main"
+
+
+[tool.flit.metadata]
+module = "jpkgchanger"
+author = "Alexey Nikitin"
+author-email = "anikitin@intermedia.net"
+home-page = "https://github.com/intermedia-net/jpkgchanger"
+description-file = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+
